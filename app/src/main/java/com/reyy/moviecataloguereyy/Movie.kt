@@ -28,15 +28,7 @@ data class Movie(
     val popularity : String?,
 
     @SerializedName("vote_count")
-    val votecount : String?,
-
-
-
-
-
-
-
-
+    val votecount : String?
 
     ) : Parcelable {
     constructor() : this("", "", "", "","","","","")
